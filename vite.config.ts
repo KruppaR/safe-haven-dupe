@@ -8,6 +8,6 @@ export default defineConfig({
   },
   server: {
     preset: "vercel",
-    entry: "server",
+    entry: "./src/server",
   },
 });
